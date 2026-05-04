@@ -1,11 +1,34 @@
 {
   "name": "dutch-data-plugin",
   "version": "0.1.0",
-  "description": "Claude Code plugin for Dutch Data branded deliverables",
+  "description": "Claude Code plugin for Dutch government data research and branded deliverables. Connects to the nl-gov-data MCP for Tweede Kamer, Rijksoverheid, KOOP, BWB, and WGK data, and provides document production skills (PPTX, DOCX, PDF, XLSX, diagrams).",
   "author": {
     "name": "stromy-org"
   },
   "repository": "https://github.com/stromy-org/dutch-data-plugin",
   "license": "UNLICENSED",
-  "keywords": []
+  "keywords": [
+    "dutch government",
+    "tweede kamer",
+    "rijksoverheid",
+    "nl-gov-data",
+    "public affairs",
+    "netherlands",
+    "pptx",
+    "docx",
+    "pdf",
+    "xlsx",
+    "diagram",
+    "mermaid"
+  ],
+  "skills": [
+    "dutch-gov-data",
+    "pptx",
+    "pptx-hd",
+    "docx",
+    "pdf",
+    "xlsx",
+    "diagram",
+    "mermaid"
+  ]
 }
