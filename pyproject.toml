@@ -1,6 +1,33 @@
 [project]
 name = "dutch-data-plugin"
 version = "0.1.0"
-description = "Claude Code plugin for Dutch Data branded deliverables"
+description = "Claude Code plugin for Dutch government data deliverables"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "cairosvg>=2.7",
+    "defusedxml>=0.7",
+    "lxml>=5.0",
+    "markitdown[pptx,docx]>=0.1",
+    "openpyxl>=3.1",
+    "pdf2image>=1.16",
+    "pdfplumber>=0.10",
+    "Pillow>=10.0",
+    "pypdf>=4.0",
+    "pypdfium2>=4.0",
+    "python-pptx>=0.6",
+    "reportlab>=4.0",
+]
+
+# System dependencies (not pip-installable — install once on the machine):
+#   LibreOffice : xlsx formula recalculation, PPTX→PDF conversion
+#                 macOS: brew install --cask libreoffice
+#                 Linux: sudo apt-get install libreoffice
+#   poppler-utils: pdftoppm, pdftotext, pdfimages
+#                 macOS: brew install poppler
+#                 Linux: sudo apt-get install poppler-utils
+#   cairo        : required by cairosvg for SVG→PNG (logo rendering)
+#                 macOS: brew install cairo
+#                 Linux: sudo apt-get install libcairo2
+
+[tool.uv]
+system-site-packages = false
