@@ -1,4 +1,5 @@
 {
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "dutch-data-plugin",
   "version": "0.1.0",
   "description": "Claude Code plugin for Dutch government data research and branded deliverables. Connects to the nl-gov-data MCP for Tweede Kamer, Rijksoverheid, KOOP, BWB, and WGK data, and provides document production skills (PPTX, DOCX, PDF, XLSX, diagrams).",
