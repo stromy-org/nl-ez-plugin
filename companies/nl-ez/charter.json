@@ -29,27 +29,54 @@
   "fonts": {
     "heading": {
       "family": "RO Sans",
-      "fallback": ["Calibri", "Arial", "Verdana", "sans-serif"],
-      "weight": 700
+      "fallback": [
+        "Calibri",
+        "Arial",
+        "Verdana",
+        "sans-serif"
+      ],
+      "weight": 700,
+      "embedFamily": "Fira Sans"
     },
     "body": {
       "family": "RO Sans",
-      "fallback": ["Calibri", "Arial", "Verdana", "sans-serif"],
-      "weight": 400
+      "fallback": [
+        "Calibri",
+        "Arial",
+        "Verdana",
+        "sans-serif"
+      ],
+      "weight": 400,
+      "embedFamily": "Fira Sans"
     },
     "serif": {
       "family": "RO Serif",
-      "fallback": ["Georgia", "Times New Roman", "serif"],
+      "fallback": [
+        "Georgia",
+        "Times New Roman",
+        "serif"
+      ],
       "weight": 400,
-      "notes": "Use for formal reports and long-form body text"
+      "notes": "Use for formal reports and long-form body text",
+      "embedFamily": "Source Serif 4"
     },
     "files": {
-      "ro-sans-regular": "fonts/RO-SansWebText-Regular.woff2",
-      "ro-sans-bold": "fonts/RO-SansWebText-Bold.woff2",
-      "ro-sans-italic": "fonts/RO-SansWebText-Italic.woff2",
-      "ro-serif-regular": "fonts/RO-SerifWeb-Regular.woff2",
-      "ro-serif-italic": "fonts/RO-SerifWeb-Italic.woff2"
-    }
+      "ro-sans-regular": "fonts/web/RO-SansWebText-Regular.woff2",
+      "ro-sans-bold": "fonts/web/RO-SansWebText-Bold.woff2",
+      "ro-sans-italic": "fonts/web/RO-SansWebText-Italic.woff2",
+      "ro-serif-regular": "fonts/web/RO-SerifWeb-Regular.woff2",
+      "ro-serif-italic": "fonts/web/RO-SerifWeb-Italic.woff2"
+    },
+    "embed": {
+      "fira-sans-regular": "fonts/FiraSans-Regular.ttf",
+      "fira-sans-italic": "fonts/FiraSans-Italic.ttf",
+      "fira-sans-medium": "fonts/FiraSans-Medium.ttf",
+      "fira-sans-bold": "fonts/FiraSans-Bold.ttf",
+      "fira-sans-bolditalic": "fonts/FiraSans-BoldItalic.ttf",
+      "source-serif4": "fonts/SourceSerif4[opsz,wght].ttf",
+      "source-serif4-italic": "fonts/SourceSerif4-Italic[opsz,wght].ttf"
+    },
+    "substituteNote": "RO Sans/RO Serif are Rijksoverheid-licensed and ship web-only (woff2) — not embeddable into OOXML/PDF. Server-side render tools embed the OFL substitute (Fira Sans / Source Serif 4) so deliverables are self-contained; Dutch-gov machines with the RO fonts installed still render the named family."
   },
   "logo": {
     "primary": "logos/logo.svg",
@@ -74,26 +101,71 @@
     "linkColor": "#01689b"
   },
   "images": {
-    "overlay": { "color": "#154273", "opacity": 0.55 },
+    "overlay": {
+      "color": "#154273",
+      "opacity": 0.55
+    },
     "logoVariantOnImage": "primary",
     "catalog": [
-      { "file": "images/photo-cover-01.jpg",   "roles": ["cover"],   "mood": "bold",       "orientation": "landscape" },
-      { "file": "images/photo-cover-02.jpg",   "roles": ["cover"],   "mood": "bold",       "orientation": "landscape" },
-      { "file": "images/photo-section-01.png", "roles": ["section"], "mood": "policy",     "orientation": "landscape" },
-      { "file": "images/photo-section-02.jpg", "roles": ["section"], "mood": "industrial", "orientation": "landscape" },
-      { "file": "images/photo-section-03.jpg", "roles": ["section"], "mood": "editorial",  "orientation": "landscape" },
-      { "file": "images/photo-section-04.jpg", "roles": ["section"], "mood": "human",      "orientation": "landscape" }
+      {
+        "file": "images/photo-cover-01.jpg",
+        "roles": [
+          "cover"
+        ],
+        "mood": "bold",
+        "orientation": "landscape"
+      },
+      {
+        "file": "images/photo-cover-02.jpg",
+        "roles": [
+          "cover"
+        ],
+        "mood": "bold",
+        "orientation": "landscape"
+      },
+      {
+        "file": "images/photo-section-01.png",
+        "roles": [
+          "section"
+        ],
+        "mood": "policy",
+        "orientation": "landscape"
+      },
+      {
+        "file": "images/photo-section-02.jpg",
+        "roles": [
+          "section"
+        ],
+        "mood": "industrial",
+        "orientation": "landscape"
+      },
+      {
+        "file": "images/photo-section-03.jpg",
+        "roles": [
+          "section"
+        ],
+        "mood": "editorial",
+        "orientation": "landscape"
+      },
+      {
+        "file": "images/photo-section-04.jpg",
+        "roles": [
+          "section"
+        ],
+        "mood": "human",
+        "orientation": "landscape"
+      }
     ]
   },
   "pptxAssets": {
     "gradients": {
-      "dark":   "pptx-assets/gradient-dark.png",
+      "dark": "pptx-assets/gradient-dark.png",
       "accent": "pptx-assets/gradient-accent.png",
-      "light":  "pptx-assets/gradient-light.png"
+      "light": "pptx-assets/gradient-light.png"
     },
     "overlays": {
-      "cover-01":   "pptx-assets/overlays/photo-cover-01-overlay.jpg",
-      "cover-02":   "pptx-assets/overlays/photo-cover-02-overlay.jpg",
+      "cover-01": "pptx-assets/overlays/photo-cover-01-overlay.jpg",
+      "cover-02": "pptx-assets/overlays/photo-cover-02-overlay.jpg",
       "section-01": "pptx-assets/overlays/photo-section-01-overlay.jpg",
       "section-02": "pptx-assets/overlays/photo-section-02-overlay.jpg",
       "section-03": "pptx-assets/overlays/photo-section-03-overlay.jpg",
