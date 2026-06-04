@@ -8,7 +8,10 @@
     "industry": "Government / Economic Policy",
     "tier": "output",
     "brand_system": "Rijkshuisstijl (Dutch Government House Style)",
-    "created_at": "2026-05-02"
+    "style_guide_url": "https://www.rijkshuisstijl.nl/",
+    "created_at": "2026-05-02",
+    "verified_at": "2026-05-19",
+    "verification_notes": "Ministry name confirmed against canonical /ministeries index on 2026-05-19. Logo SVGs in client-data are byte-identical to live Rijksoverheid canonical sources. Both 'Minister van EZK' and 'Minister van Klimaat en Groene Groei' portfolios sit under the same ministry — no separate ministry exists. Rijkshuisstijl style-guide site is auth-gated; downloadable assets not directly probable."
   },
   "colors": {
     "primary": "#154273",
@@ -50,8 +53,15 @@
   },
   "logo": {
     "primary": "logos/logo.svg",
+    "png": "logos/logo.png",
     "wordmark": "logos/logo-wordmark.svg",
+    "wordmarkPng": "logos/logo-wordmark.png",
     "mark_alt": "logos/logo-mark-alt.svg",
+    "favicon": "logos/favicon.ico",
+    "appleTouchIcon": "logos/apple-touch-icon.png",
+    "maxWidth": "160pt",
+    "maxHeight": "60pt",
+    "sizing": "contain",
     "description": "Dutch coat of arms (crowned lion) on Rijksblauw (#154273) vertical banner. Blue background is baked into the SVG. Use logo-wordmark.svg for document headers and title slides."
   },
   "presentation": {
