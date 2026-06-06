@@ -1,8 +1,8 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "nl-gov-data-plugin",
-  "version": "0.2.0",
-  "description": "Claude Code plugin for Dutch government data research and branded deliverables. Connects to the nl-gov-data MCP for Tweede Kamer, Rijksoverheid, KOOP, BWB, and WGK data, and provides document production skills (PPTX, DOCX, PDF, XLSX, diagrams).",
+  "version": "0.3.0",
+  "description": "Claude Code plugin exposing Dutch government data intelligence skills via the nl-gov-data MCP — Tweede Kamer, Rijksoverheid, KOOP, BWB, Wetgevingskalender, Rechtspraak, and CBS data, plus issue-framing, parliamentary-positioning, policy-landscape, and tensions analysis. Intel tooling only: no document formatting and no client brand data.",
   "author": {
     "name": "stromy-org"
   },
@@ -15,11 +15,9 @@
     "nl-gov-data",
     "public affairs",
     "netherlands",
-    "pptx",
-    "docx",
-    "pdf",
-    "xlsx",
-    "diagram",
-    "mermaid"
+    "intelligence",
+    "legislation",
+    "parliament",
+    "policy"
   ]
 }
