@@ -1,12 +1,12 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
-  "name": "nl-gov-data-plugin",
-  "version": "0.3.0",
-  "description": "Claude Code plugin exposing Dutch government data intelligence skills via the nl-gov-data MCP — Tweede Kamer, Rijksoverheid, KOOP, BWB, Wetgevingskalender, Rechtspraak, and CBS data, plus issue-framing, parliamentary-positioning, policy-landscape, and tensions analysis. Intel tooling only: no document formatting and no client brand data.",
+  "name": "nl-ez-plugin",
+  "version": "0.4.0",
+  "description": "Branded Claude Code plugin for Ministerie van Economische Zaken en Klimaat (nl-ez). Composes Dutch government data intelligence (nl-gov-data MCP — Tweede Kamer, Rijksoverheid, KOOP, BWB, Wetgevingskalender, Rechtspraak, CBS, plus nl-issue-framing, nl-parliamentary-positioning, nl-policy-legislative-landscape, nl-tensions) with server-side branded document formatting (stromy-format) and deliverable planning (deliverable-canvas), over the nl-ez client-data brand overlay.",
   "author": {
     "name": "stromy-org"
   },
-  "repository": "https://github.com/stromy-org/nl-gov-data-plugin",
+  "repository": "https://github.com/stromy-org/nl-ez-plugin",
   "license": "UNLICENSED",
   "keywords": [
     "dutch government",
