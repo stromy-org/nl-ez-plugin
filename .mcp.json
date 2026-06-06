@@ -4,10 +4,6 @@
     "nl-gov-data": {
       "type": "http",
       "url": "https://nl-gov-data.whitebush-d817afec.westeurope.azurecontainerapps.io/mcp"
-    },
-    "stromy-format": {
-      "type": "http",
-      "url": "https://stromy-format-mcp.whitetree-762cff59.westeurope.azurecontainerapps.io/mcp"
     }
   }
 }

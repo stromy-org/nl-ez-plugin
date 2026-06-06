@@ -1,6 +1,7 @@
 # NL Gov Data Plugin
 
-Claude Code plugin for NL Gov Data branded deliverables
+Claude Code plugin exposing **Dutch government data intelligence** skills via the
+`nl-gov-data` MCP. Intel tooling only — no document formatting, no client brand data.
 
 ## Installation
 
@@ -16,25 +17,29 @@ cd nl-gov-data-plugin
 claude --plugin-dir .
 ```
 
-Dependencies are automatically installed on first session start via the `hooks/hooks.json` SessionStart hook.
-
 ## What's Included
 
 ### Skills
 
+All skills are thin routing stubs — their full instructions and reference files
+are hosted server-side on the `nl-gov-data` MCP and fetched live via the MCP's
+`fs_read` / `fs_list` tools.
+
 | Skill | Description |
 |-------|-------------|
-| `example` | Example skill — replace with actual skills |
+| `nl-gov-data` | Track Dutch public-affairs signals across Tweede Kamer, Rijksoverheid, KOOP, BWB, Wetgevingskalender, ROO, Rechtspraak, CBS, and data.overheid.nl; deep-read documents |
+| `nl-policy-legislative-landscape` | Build deep official-source policy and legislative landscape analyses |
+| `nl-parliamentary-positioning` | Map parliamentary positioning and official political posture |
+| `nl-official-issue-framing` | Analyse how an entity or issue is framed in official records |
+| `tensions` | Detect contradictions, said-vs-did gaps, and non-obvious tensions |
+| `nl-gov-shared` | References hub for the nl-gov-data skill family (not invoked directly) |
+| `feedback` | Append-only task retrospective (local) |
 
 ### MCP Servers
 
 | Server | Transport | Description |
 |--------|-----------|-------------|
-| `` | http | Connected data source |
-
-### Company Data
-
-Brand and company data for NL Gov Data lives in `companies/nl-ez/`.
+| `nl-gov-data` | http | Dutch government open-data MCP — legislation, parliamentary records, Rijksoverheid documents (per-user OAuth via Microsoft Entra ID) |
 
 ## License
 
