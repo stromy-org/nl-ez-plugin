@@ -5,6 +5,8 @@ author_name: William Masquelier
 client_name: Ministerie van Economische Zaken en Klimaat
 client_slug: nl-ez
 description: Claude Code plugin for Dutch government data research and branded deliverables
+enable_asset_broker: true
+enable_stromy_format: true
 github_org: stromy-org
 include_mcp: true
 include_node: true
