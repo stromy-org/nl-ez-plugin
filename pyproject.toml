@@ -4,6 +4,3 @@ version = "0.3.0"
 description = "Claude Code plugin exposing Dutch government data intelligence skills via the nl-gov-data MCP. Intel tooling only — no document formatting."
 requires-python = ">=3.11"
 dependencies = []
-
-[tool.uv]
-system-site-packages = false
