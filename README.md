@@ -33,7 +33,6 @@ are hosted server-side on the `nl-gov-data` MCP and fetched live via the MCP's
 | `nl-official-issue-framing` | Analyse how an entity or issue is framed in official records |
 | `tensions` | Detect contradictions, said-vs-did gaps, and non-obvious tensions |
 | `nl-gov-shared` | References hub for the nl-gov-data skill family (not invoked directly) |
-| `feedback` | Append-only task retrospective (local) |
 
 ### MCP Servers
 
