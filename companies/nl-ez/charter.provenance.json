@@ -1,0 +1,42 @@
+{
+  "brandfetch": {
+    "refreshedOn": "2026-06-15",
+    "provider": "brandfetch",
+    "domain": "rijksoverheid.nl",
+    "qualityScore": 0.538,
+    "claimed": false,
+    "note": "Brandfetch returned the 'Rijksoverheid' umbrella (not the EZK ministry) with role-confused colors — primary #000000 (dominant pixel), accent #154273 (the real Rijksoverheid donkerblauw, mislabeled). Low value for this government entity; identity sourced from rijksoverheid.nl + rijkshuisstijl.nl instead.",
+    "validation": {
+      "validatedOn": "2026-06-15",
+      "method": "authoritative rijksoverheid.nl / rijkshuisstijl.nl research (agent) + Brandfetch trust-gated",
+      "bf_reliability": "low — umbrella record, unclaimed q=0.54, role-confused colors",
+      "resolutions": [
+        {
+          "field": "meta.name",
+          "winner": "curated",
+          "truth": "Ministerie van Economische Zaken en Klimaat (EZK)",
+          "source_url": "https://www.rijksoverheid.nl/ministeries/ministerie-van-economische-zaken-en-klimaat",
+          "confidence": "high",
+          "evidence": "The 2024 Schoof-cabinet split EZK -> EZ + KGG was REVERSED by the Jetten cabinet (Feb 2026); current official name is EZK — curated charter already correct, no change."
+        },
+        {
+          "field": "colors",
+          "winner": "curated",
+          "truth": "Rijkshuisstijl donkerblauw #154273 / hemelblauw #01689b / geel #ffb612",
+          "source_url": "https://www.rijkshuisstijl.nl",
+          "confidence": "high",
+          "evidence": "Official Rijkshuisstijl palette; BF found #154273 but mislabeled it as accent."
+        },
+        {
+          "field": "fonts",
+          "winner": "curated",
+          "truth": "RO Sans / RO Serif",
+          "source_url": "https://www.rijkshuisstijl.nl",
+          "confidence": "high",
+          "evidence": "Official Rijksoverheid typefaces (web-only; OFL substitutes for OOXML/PDF embedding)."
+        }
+      ],
+      "notes": "Ministry has no standalone domain (operates under rijksoverheid.nl). Social handles use 'MinisterieEZ'."
+    }
+  }
+}

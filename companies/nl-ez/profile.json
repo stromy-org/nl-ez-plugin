@@ -1,0 +1,88 @@
+{
+  "version": "1.0",
+  "description": "The Dutch Ministry of Economic Affairs and Climate Policy (Ministerie van Economische Zaken en Klimaat, EZK) is the central-government ministry responsible for entrepreneurship, innovation, competition, the digital economy, energy and regional economic policy in the Netherlands.",
+  "entity": {
+    "officialNameNl": "Ministerie van Economische Zaken en Klimaat",
+    "officialNameEn": "Ministry of Economic Affairs and Climate Policy",
+    "abbreviation": "EZK",
+    "type": "Government ministry (central government / Rijksoverheid)",
+    "parent": "Rijksoverheid — central government of the Kingdom of the Netherlands",
+    "headquarters": {
+      "street": "Bezuidenhoutseweg 73",
+      "postalCode": "2594 AC",
+      "city": "Den Haag",
+      "country": "Netherlands"
+    },
+    "website": "https://www.rijksoverheid.nl/ministeries/ministerie-van-economische-zaken-en-klimaat",
+    "establishedLineage": "Origins 1905 (Ministry of Agriculture, Industry & Commerce); renamed Ministry of Economic Affairs 1946; climate portfolio added 2017 → EZK; split into EZ + Klimaat en Groene Groei (KGG) under the Schoof cabinet (Jul 2024); re-merged as EZK under the Jetten cabinet (Feb 2026).",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/ministerieez/",
+      "twitter": "https://x.com/MinisterieEZ",
+      "youtube": "https://www.youtube.com/user/nieuwsez",
+      "facebook": "https://www.facebook.com/ministerieez",
+      "instagram": "https://www.instagram.com/ministerieez"
+    }
+  },
+  "portfolio": [
+    "Entrepreneurship and innovation",
+    "Competition policy and consumer protection",
+    "Digital economy, telecom and digital sovereignty",
+    "Energy and renewable energy",
+    "Climate change policy",
+    "Intellectual property and patents",
+    "Public procurement and regulatory-burden reduction",
+    "State aid and foreign direct-investment screening",
+    "Regional economic policy",
+    "Space activities and postal services"
+  ],
+  "executiveAgencies": [
+    "RVO — Rijksdienst voor Ondernemend Nederland (Netherlands Enterprise Agency)",
+    "ACM — Autoriteit Consument en Markt",
+    "CPB — Centraal Planbureau",
+    "RDI — Rijksinspectie Digitale Infrastructuur",
+    "NEa — Nederlandse Emissieautoriteit",
+    "SodM — Staatstoezicht op de Mijnen",
+    "NFIA — Netherlands Foreign Investment Agency",
+    "PIANOo — Expertisecentrum Aanbesteden"
+  ],
+  "leadership": {
+    "_asOf": "2026-06-15",
+    "_note": "Officeholders change with cabinets. Agent-researched against rijksoverheid.nl; treat as point-in-time and verify before external use — NOT a stable brand fact.",
+    "minister": "Minister van Economische Zaken en Klimaat (Jetten cabinet, from 2026-02-23)",
+    "researchedMinisterName": "Heleen Herbert (unverified — confirm at rijksoverheid.nl)"
+  },
+  "firmographics": {
+    "legalName": "Ministerie van Economische Zaken en Klimaat",
+    "kind": "GOVERNMENT_MINISTRY",
+    "founded": 1905,
+    "headquarters": {
+      "city": "Den Haag",
+      "country": "Netherlands",
+      "countryCode": "NL",
+      "region": "Europe"
+    },
+    "industries": [
+      "Government",
+      "Public Administration"
+    ],
+    "financialIdentifiers": {
+      "isin": [],
+      "ticker": []
+    },
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/ministerieez/",
+      "twitter": "https://x.com/MinisterieEZ",
+      "youtube": "https://www.youtube.com/user/nieuwsez",
+      "facebook": "https://www.facebook.com/ministerieez",
+      "instagram": "https://www.instagram.com/ministerieez"
+    },
+    "website": "https://www.rijksoverheid.nl/ministeries/ministerie-van-economische-zaken-en-klimaat",
+    "_source": "rijksoverheid.nl (authoritative, agent-validated 2026-06-15)",
+    "_note": "Brandfetch (rijksoverheid.nl, q=0.54, unclaimed) returned the 'Rijksoverheid' umbrella with role-confused colors and was NOT used for this ministry's identity — see charter.provenance.json."
+  },
+  "_provenance": {
+    "createdBy": "brand-intelligence validated refresh (rijksoverheid.nl authoritative + Brandfetch trust-gated)",
+    "createdOn": "2026-06-15",
+    "note": "Government entity under rijksoverheid.nl (no standalone domain). Identity sourced from the authoritative government site; Brandfetch was low-value and not used. Leadership block is point-in-time, verify before external use."
+  }
+}

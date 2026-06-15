@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schema/boilerplate.schema.json",
+  "version": "1.0",
+  "description": "Boilerplate strings for the Ministry of Economic Affairs and Climate (EZK). Seeded from the org default; tune legal/licensing for Dutch-government (Rijksoverheid) use before external deliverables.",
+  "address": "",
+  "website": "https://www.rijksoverheid.nl/ministeries/ministerie-van-economische-zaken-en-klimaat",
+  "email": "",
+  "phone": "",
+  "footer": {
+    "show": true,
+    "left": "Ministerie van Economische Zaken en Klimaat",
+    "center": "",
+    "right": "Page {page} of {pages}"
+  },
+  "confidentiality": {
+    "show": false,
+    "level": "internal",
+    "text": "Confidential — Ministerie van Economische Zaken en Klimaat internal use only. Do not distribute without written permission.",
+    "position": "footer-left",
+    "fontPt": 8
+  },
+  "watermark": {
+    "show": false,
+    "text": "DRAFT",
+    "opacity": 0.08,
+    "rotationDeg": -30,
+    "fontPt": 96,
+    "color": "{{colors.textLight|#cccccc}}"
+  },
+  "legal": {
+    "copyright": "© {{year}} Ministerie van Economische Zaken en Klimaat. All rights reserved.",
+    "trademark": "",
+    "disclaimer": ""
+  },
+  "deck": {
+    "coverFooter": "",
+    "closingTagline": "",
+    "agendaTitle": "Agenda"
+  },
+  "document": {
+    "draftBadge": "DRAFT",
+    "tocTitle": "Table of Contents",
+    "appendixTitle": "Appendix"
+  }
+}
