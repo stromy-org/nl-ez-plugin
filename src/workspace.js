@@ -1,5 +1,5 @@
 /**
- * Workspace output path resolution for ClaudeCowork build scripts.
+ * Workspace output path resolution for Workspace Studio build scripts.
  *
  * Usage (from workspace/<client>/build/<deliverable>/build.js):
  *   const { ensureOutputDir, resolveOutputPath } = require('../../../../src/workspace');

@@ -1,5 +1,5 @@
 """
-Workspace output path resolution for ClaudeCowork build scripts.
+Workspace output path resolution for Workspace Studio build scripts.
 
 Usage (from workspace/<client>/build/<deliverable>/build.py):
     import sys; sys.path.insert(0, str(Path(__file__).resolve().parents[3] / 'src'))
