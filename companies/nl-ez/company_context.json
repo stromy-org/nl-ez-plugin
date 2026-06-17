@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "generatedFrom": {
+    "profileSha": "145b114d4d4cbe01f256722bda9ecf33ff6d4f3f0e5a82d14e4764d1fe27ec5e",
+    "compiler": "1.0"
+  },
+  "company": {
+    "website": "https://www.rijksoverheid.nl/ministeries/ministerie-van-economische-zaken-en-klimaat",
+    "headquarters": {
+      "city": "Den Haag",
+      "country": "Netherlands"
+    },
+    "publicContact": {
+      "website": "https://www.rijksoverheid.nl/ministeries/ministerie-van-economische-zaken-en-klimaat",
+      "linkedin": "https://www.linkedin.com/company/ministerieez/"
+    }
+  }
+}

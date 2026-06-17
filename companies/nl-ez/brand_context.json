@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0",
+  "generatedFrom": {
+    "charterSha": "f55d322f2f5b00f0c0dd0b7b3f67c1c7b9bacb28cbfedec0a407273efc2f190c",
+    "compiler": "1.0"
+  },
+  "tier": "output",
+  "colors": {
+    "primary": "#154273",
+    "secondary": "#01689b",
+    "accent": "#ffb612",
+    "error": "#c63c2c",
+    "text": "#1D1D1B",
+    "textBody": "#333333",
+    "textMeta": "#535353",
+    "textOnDark": "#FFFFFF",
+    "background": "#FFFFFF",
+    "surface": "#f3f3f3",
+    "border": "#e6e6e6",
+    "white": "#FFFFFF",
+    "success": "#39870c",
+    "warning": "#e17000",
+    "textLight": "#535353",
+    "text_body": "#333333",
+    "text_meta": "#535353",
+    "backgroundAlt": "#f3f3f3"
+  },
+  "typography": {
+    "heading": {
+      "family": "RO Sans",
+      "weight": 700,
+      "fallback": "Calibri, Arial, Verdana, sans-serif",
+      "embedFamily": "Fira Sans"
+    },
+    "body": {
+      "family": "RO Sans",
+      "weight": 400,
+      "fallback": "Calibri, Arial, Verdana, sans-serif",
+      "embedFamily": "Fira Sans"
+    }
+  },
+  "tokens_css": ":root {\n  /* ── Rijksoverheid / EZK brand tokens ── */\n\n  /* Colors */\n  --color-primary:        #154273;  /* Rijksblauw */\n  --color-secondary:      #01689b;  /* Interactive blue — links, CTAs */\n  --color-accent:         #ffb612;  /* Amber — Dutch gold, alert accent */\n  --color-error:          #c63c2c;  /* Error / warning red */\n\n  --color-text:           #1D1D1B;  /* Near-black — wordmark, headings */\n  --color-text-body:      #333333;  /* Body text */\n  --color-text-meta:      #535353;  /* Captions, timestamps */\n  --color-text-on-dark:   #FFFFFF;  /* Text on primary/dark backgrounds */\n\n  --color-background:     #FFFFFF;\n  --color-surface:        #f3f3f3;  /* Panel / table backgrounds */\n  --color-border:         #e6e6e6;\n\n  --color-white:          #FFFFFF;\n\n  /* Typography */\n  --font-heading: 'RO Sans', Calibri, Arial, Verdana, sans-serif;\n  --font-body:    'RO Sans', Calibri, Arial, Verdana, sans-serif;\n  --font-serif:   'RO Serif', Georgia, 'Times New Roman', serif;\n\n  --font-weight-regular: 400;\n  --font-weight-bold:    700;\n\n  /* Presentation */\n  --slide-margin:  40pt;\n  --title-margin:  60pt;\n  --content-margin: 40pt;\n}\n",
+  "identity": {
+    "company": {
+      "website": "https://www.rijksoverheid.nl/ministeries/ministerie-van-economische-zaken-en-klimaat"
+    }
+  },
+  "boilerplate": {
+    "footer": "Ministerie van Economische Zaken en Klimaat",
+    "confidentiality": "Confidential — Ministerie van Economische Zaken en Klimaat internal use only. Do not distribute without written permission.",
+    "copyright": "© {{year}} Ministerie van Economische Zaken en Klimaat. All rights reserved."
+  },
+  "expression": {
+    "sourceLevel": "neutral-fallback",
+    "fallbacksUsed": [
+      "missing-expression"
+    ]
+  },
+  "plotly_theme": {
+    "colorway": [
+      "#154273",
+      "#ffb612",
+      "#01689b",
+      "#39870c",
+      "#e17000",
+      "#c63c2c"
+    ],
+    "baseTemplate": "plotly_white",
+    "font": {
+      "family": "RO Sans",
+      "color": "#1D1D1B"
+    },
+    "titleFontSize": 18,
+    "gridColor": "#f3f3f3",
+    "sentiment": {
+      "positive": "#39870c",
+      "negative": "#c63c2c",
+      "neutral": "#535353"
+    }
+  },
+  "excalidraw_theme": {
+    "strokeColor": "#1D1D1B",
+    "fillColors": [
+      "#154273",
+      "#ffb612",
+      "#01689b"
+    ],
+    "textColor": "#1D1D1B",
+    "arrowColor": "#154273",
+    "backgroundColor": "#FFFFFF",
+    "roughness": 0,
+    "headingFont": "RO Sans",
+    "bodyFont": "RO Sans"
+  },
+  "formatting": {
+    "aspectRatio": "16:9",
+    "slideMargin": "40pt",
+    "titleMargin": "60pt",
+    "contentMargin": "40pt",
+    "primaryBackground": "#FFFFFF",
+    "accentBackground": "#154273",
+    "linkColor": "#01689b"
+  },
+  "images": {
+    "manifest": [
+      {
+        "file": "photo-cover-01.jpg",
+        "roles": [
+          "cover"
+        ],
+        "mood": "bold",
+        "orientation": "landscape",
+        "source_url": "https://www.rijksoverheid.nl/binaries/widescreen/content/gallery/rijksoverheid/attentie-afbeeldingen/onderwerpen/d/duurzame-energie.jpg",
+        "confidence": "medium",
+        "notes": "Sustainable energy hero — best quality (310K). Use as primary cover slide."
+      },
+      {
+        "file": "photo-cover-02.jpg",
+        "roles": [
+          "cover"
+        ],
+        "mood": "bold",
+        "orientation": "landscape",
+        "source_url": "https://www.rijksoverheid.nl/binaries/widescreen/content/gallery/rijksoverheid/content-afbeeldingen/ministeries/series/hero---nieuw/ezk-hero-juli2019.jpg",
+        "confidence": "medium",
+        "notes": "Solar panels / renewable energy — EZK ministry hero, 1200×480px."
+      },
+      {
+        "file": "photo-section-01.png",
+        "roles": [
+          "section"
+        ],
+        "mood": "policy",
+        "orientation": "landscape",
+        "source_url": "https://www.rijksoverheid.nl/binaries/medium/content/gallery/rijksoverheid/content-afbeeldingen/ministeries/ezk/2022/4_europa_600x400.png",
+        "confidence": "medium",
+        "notes": "EU/European policy graphic. Good for international/EU strategy slides."
+      },
+      {
+        "file": "photo-section-02.jpg",
+        "roles": [
+          "section"
+        ],
+        "mood": "industrial",
+        "orientation": "landscape",
+        "source_url": "https://www.rijksoverheid.nl/binaries/medium/content/gallery/rijksoverheid/content-afbeeldingen/ministeries/ezk/2025/uitgelicht-maasvlakte.jpg",
+        "confidence": "medium",
+        "notes": "Maasvlakte industrial port (2025). Energy infrastructure & logistics context."
+      },
+      {
+        "file": "photo-section-03.jpg",
+        "roles": [
+          "section"
+        ],
+        "mood": "editorial",
+        "orientation": "landscape",
+        "source_url": "https://www.rijksoverheid.nl/binaries/medium/content/gallery/rijksoverheid/content-afbeeldingen/ministeries/series/overzichtspagina---nieuw/ezk-overzicht-juli2019.jpg",
+        "confidence": "medium",
+        "notes": "EZK ministry overview editorial."
+      },
+      {
+        "file": "photo-section-04.jpg",
+        "roles": [
+          "section"
+        ],
+        "mood": "human",
+        "orientation": "landscape",
+        "source_url": "https://www.rijksoverheid.nl/binaries/medium/content/gallery/rijksoverheid/banner-afbeeldingen/onderwerpen/e/energie-thuis-450.jpg",
+        "confidence": "medium",
+        "notes": "Residential/consumer energy — relatable human angle."
+      }
+    ],
+    "overlay": {
+      "color": "#154273",
+      "opacity": 0.55
+    },
+    "logoVariantOnImage": "primary"
+  },
+  "logo": {
+    "primary": "logos/logo.svg",
+    "png": "logos/logo.png",
+    "wordmark": "logos/logo-wordmark.svg",
+    "wordmarkPng": "logos/logo-wordmark.png",
+    "mark_alt": "logos/logo-mark-alt.svg",
+    "favicon": "logos/favicon.ico",
+    "appleTouchIcon": "logos/apple-touch-icon.png",
+    "maxWidth": "160pt",
+    "maxHeight": "60pt",
+    "sizing": "contain",
+    "description": "Dutch coat of arms (crowned lion) on Rijksblauw (#154273) vertical banner. Blue background is baked into the SVG. Use logo-wordmark.svg for document headers and title slides."
+  },
+  "fallbacksUsed": [],
+  "warnings": []
+}
