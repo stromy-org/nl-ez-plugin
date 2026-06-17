@@ -2,7 +2,7 @@
   "$schema": "../../../../schema/docx-letterhead-spec.schema.json",
   "spec": "letterhead",
   "version": "1.0",
-  "description": "Brand-token-driven letterhead. Materialised to letterhead.docx by the Cowork `docx` skill via `render-anchors --client <slug>`. Two-page variant: first page has full header + footer, continuation pages keep the footer only.",
+  "description": "Brand-token-driven letterhead. Materialised to letterhead.docx by the Workspace Studio `docx` skill via `render-anchors --client <slug>`. Two-page variant: first page has full header + footer, continuation pages keep the footer only.",
   "extendsStyles": "templates/docx/styles.spec.json",
   "page": {
     "size": "{{document.paperSize|A4}}",

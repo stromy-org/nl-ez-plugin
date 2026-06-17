@@ -2,7 +2,7 @@
   "$schema": "../../../../schema/docx-style-spec.schema.json",
   "spec": "styles",
   "version": "1.0",
-  "description": "Brand-token-driven DOCX style base. Materialised to styles.docx by the Cowork `docx` skill via `render-anchors --client <slug>`. Tokens resolve from the brand's charter.json at render time.",
+  "description": "Brand-token-driven DOCX style base. Materialised to styles.docx by the Workspace Studio `docx` skill via `render-anchors --client <slug>`. Tokens resolve from the brand's charter.json at render time.",
   "page": {
     "size": "{{document.paperSize|A4}}",
     "margins": { "top": "2.5cm", "bottom": "2.5cm", "left": "2.5cm", "right": "2.5cm" }
