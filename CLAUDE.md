@@ -4,7 +4,7 @@ Instructions for Claude Code when working in this plugin repo.
 
 ## Overview
 
-nl-gov-data-plugin is a Claude Code plugin for NL Gov Data. It is a **distribution artifact** — skills are authored in Cowork and cherry-picked here for client deployment.
+nl-gov-data-plugin is a Claude Code plugin for NL Gov Data. It is a **distribution artifact** — skills are authored in Workspace Studio and cherry-picked here for client deployment.
 
 ## Repository Structure
 
@@ -43,9 +43,9 @@ for d in skills/*/; do [ -f "$d/SKILL.md" ] && echo "OK: $d" || echo "MISSING: $
 
 ## Updating Skills
 
-Skills are maintained in Cowork and cherry-picked into this plugin:
+Skills are maintained in Workspace Studio and cherry-picked into this plugin:
 
-1. Update the skill in `Cowork/.claude/skills/<skill-name>/`
+1. Update the skill in `workspace-studio/.claude/skills/<skill-name>/`
 2. Copy updated files to `skills/<skill-name>/`
 3. Re-apply portability transforms:
    - `client-data/clients/<name>/` → `companies/nl-ez/`
