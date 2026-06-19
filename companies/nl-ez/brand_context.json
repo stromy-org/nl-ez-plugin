@@ -38,6 +38,12 @@
       "weight": 400,
       "fallback": "Calibri, Arial, Verdana, sans-serif",
       "embedFamily": "Fira Sans"
+    },
+    "serif": {
+      "family": "RO Serif",
+      "weight": 400,
+      "fallback": "Georgia, Times New Roman, serif",
+      "embedFamily": "Source Serif 4"
     }
   },
   "tokens_css": ":root {\n  /* ── Rijksoverheid / EZK brand tokens ── */\n\n  /* Colors */\n  --color-primary:        #154273;  /* Rijksblauw */\n  --color-secondary:      #01689b;  /* Interactive blue — links, CTAs */\n  --color-accent:         #ffb612;  /* Amber — Dutch gold, alert accent */\n  --color-error:          #c63c2c;  /* Error / warning red */\n\n  --color-text:           #1D1D1B;  /* Near-black — wordmark, headings */\n  --color-text-body:      #333333;  /* Body text */\n  --color-text-meta:      #535353;  /* Captions, timestamps */\n  --color-text-on-dark:   #FFFFFF;  /* Text on primary/dark backgrounds */\n\n  --color-background:     #FFFFFF;\n  --color-surface:        #f3f3f3;  /* Panel / table backgrounds */\n  --color-border:         #e6e6e6;\n\n  --color-white:          #FFFFFF;\n\n  /* Typography */\n  --font-heading: 'RO Sans', Calibri, Arial, Verdana, sans-serif;\n  --font-body:    'RO Sans', Calibri, Arial, Verdana, sans-serif;\n  --font-serif:   'RO Serif', Georgia, 'Times New Roman', serif;\n\n  --font-weight-regular: 400;\n  --font-weight-bold:    700;\n\n  /* Presentation */\n  --slide-margin:  40pt;\n  --title-margin:  60pt;\n  --content-margin: 40pt;\n}\n",
