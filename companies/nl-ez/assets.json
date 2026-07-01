@@ -92,8 +92,33 @@
   ],
   "images": [
     {
+      "name": "gradient-accent.png",
+      "sha256": "062a022645facd45a597eacc81c2d1479f099aee1d1d67d01b7c30fce2d10a1b",
+      "mime": "image/png"
+    },
+    {
+      "name": "gradient-dark.png",
+      "sha256": "6983595ab495a411d896345f43e7dcb983a7017f259d021f317fdbaa6a56d7c7",
+      "mime": "image/png"
+    },
+    {
+      "name": "gradient-light.png",
+      "sha256": "0220c6fa38d6579fc4fb5e8040a40dba6bc4ab7c103d809696a63533ae359cf1",
+      "mime": "image/png"
+    },
+    {
+      "name": "photo-cover-01-overlay.jpg",
+      "sha256": "fc20430afbd80228bbe68f7122a6438451fe9a73d4664b47c958661415dd83b3",
+      "mime": "image/jpeg"
+    },
+    {
       "name": "photo-cover-01.jpg",
       "sha256": "a4dbee68caeb0de8b937fc00fbbf0059ce77bec6da56a493453a03098237a2d4",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "photo-cover-02-overlay.jpg",
+      "sha256": "eb0c34203bd8e12c2a433f352a4d94504822bf8077e141ae1b4b28726ac64183",
       "mime": "image/jpeg"
     },
     {
@@ -102,9 +127,19 @@
       "mime": "image/jpeg"
     },
     {
+      "name": "photo-section-01-overlay.jpg",
+      "sha256": "60ca7d449eed90c82cf86ad1a191eada88e48bbbaa46bbacc421f4d632eb828d",
+      "mime": "image/jpeg"
+    },
+    {
       "name": "photo-section-01.png",
       "sha256": "76417c86c82a90451926f1ce8dd5586a79008036fccc0c42909028c2beddc062",
       "mime": "image/png"
+    },
+    {
+      "name": "photo-section-02-overlay.jpg",
+      "sha256": "975635347196adb9304dac08f479cda28b8184f9bb78178946375493562bcc9b",
+      "mime": "image/jpeg"
     },
     {
       "name": "photo-section-02.jpg",
@@ -112,8 +147,18 @@
       "mime": "image/jpeg"
     },
     {
+      "name": "photo-section-03-overlay.jpg",
+      "sha256": "b73e4209a979f5dadf5896b533870014dbd6218d9ca32e235b0cacaadf0669fc",
+      "mime": "image/jpeg"
+    },
+    {
       "name": "photo-section-03.jpg",
       "sha256": "b99a822d6240dd789199c5c284beedc451ce01263283c93fe8586d3dabaea682",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "photo-section-04-overlay.jpg",
+      "sha256": "0852cc2653d4467592507179b0a190aaa52dc98f67ca50f8fbb377cb82c8e930",
       "mime": "image/jpeg"
     },
     {
