@@ -7,6 +7,10 @@
     "compiler": "1.0"
   },
   "tier": "output",
+  "warnings": [
+    "font substitution: body, heading declared 'RO Sans' but renders as 'Fira Sans' (original not embeddable) — on-screen face is 'Fira Sans'",
+    "font substitution: serif declared 'RO Serif' but renders as 'Source Serif 4' (original not embeddable) — on-screen face is 'Source Serif 4'"
+  ],
   "colors": {
     "primary": "#154273",
     "secondary": "#01689b",
@@ -217,6 +221,5 @@
     "sizing": "contain",
     "description": "Dutch coat of arms (crowned lion) on Rijksblauw (#154273) vertical banner. Blue background is baked into the SVG. Use logo-wordmark.svg for document headers and title slides."
   },
-  "fallbacksUsed": [],
-  "warnings": []
+  "fallbacksUsed": []
 }
