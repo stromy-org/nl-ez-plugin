@@ -36,8 +36,7 @@ def resolve_output_dir(
     Precedence:
         1. output_dir kwarg (explicit — for external agents)
         2. OUTPUT_DIR env var
-        3. .remotion-project marker → <projectRoot>/out/
-        4. Convention → <projectRoot>/output/<deliverable>/
+        3. Convention → <projectRoot>/output/<deliverable>/
     """
     if output_dir is not None:
         return Path(output_dir).resolve()
@@ -48,10 +47,6 @@ def resolve_output_dir(
     project_root = resolve_project_root(build_path)
     p = Path(build_path).resolve()
     build_dir = p if p.is_dir() else p.parent
-
-    # Remotion exception
-    if (project_root / ".remotion-project").exists():
-        return project_root / "out"
 
     # New convention: workspace/<client>/output/<deliverable>/
     if build_dir.parent.name == "build":

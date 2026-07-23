@@ -31,19 +31,13 @@ function resolveProjectRoot(buildDir) {
  * Precedence:
  *   1. options.outputDir (explicit — for external agents)
  *   2. OUTPUT_DIR env var
- *   3. .remotion-project marker → <projectRoot>/out/
- *   4. Convention → <projectRoot>/output/<deliverable>/
+ *   3. Convention → <projectRoot>/output/<deliverable>/
  */
 function resolveOutputDir(buildDir, options) {
   if (options && options.outputDir) return path.resolve(options.outputDir);
   if (process.env.OUTPUT_DIR) return path.resolve(process.env.OUTPUT_DIR);
 
   const projectRoot = resolveProjectRoot(buildDir);
-
-  // Remotion exception
-  if (fs.existsSync(path.join(projectRoot, '.remotion-project'))) {
-    return path.join(projectRoot, 'out');
-  }
 
   // New convention: workspace/<client>/output/<deliverable>/
   const abs = path.resolve(buildDir);
