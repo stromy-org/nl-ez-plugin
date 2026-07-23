@@ -17,9 +17,9 @@
     "footer": {
       "heightCm": 1.6,
       "style": "FooterText",
-      "left":   "{{boilerplate.address}}",
-      "center": "{{meta.displayName}} · {{boilerplate.website}}",
-      "right":  "{{boilerplate.legal.copyright}}"
+      "left":   "{{boilerplate.address|}}",
+      "center": "{{meta.displayName|meta.name}}",
+      "right":  "{{boilerplate.legal.copyright|}}"
     }
   },
   "continuationPage": {
@@ -30,7 +30,7 @@
     "footer": {
       "heightCm": 1.4,
       "style": "FooterText",
-      "left":   "{{meta.displayName}}",
+      "left":   "{{meta.displayName|meta.name}}",
       "center": "",
       "right":  "{page} / {pages}"
     }

@@ -10,7 +10,7 @@
   "fonts": {
     "heading": { "family": "{{fonts.heading.family}}", "fallback": "{{fonts.heading.fallback}}" },
     "body":    { "family": "{{fonts.body.family}}",    "fallback": "{{fonts.body.fallback}}" },
-    "mono":    { "family": "{{fonts.mono.family}}",    "fallback": "{{fonts.mono.fallback}}" }
+    "mono":    { "family": "{{fonts.mono.family|fonts.body.family}}", "fallback": "{{fonts.mono.fallback|fonts.body.fallback}}" }
   },
   "colors": {
     "text":      "{{colors.text}}",

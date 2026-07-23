@@ -11,7 +11,7 @@
     "style_guide_url": "https://www.rijkshuisstijl.nl/",
     "created_at": "2026-05-02",
     "verified_at": "2026-05-19",
-    "verification_notes": "Ministry name confirmed against canonical /ministeries index on 2026-05-19. Logo SVGs in client-data are byte-identical to live Rijksoverheid canonical sources. Both 'Minister van EZK' and 'Minister van Klimaat en Groene Groei' portfolios sit under the same ministry \u2014 no separate ministry exists. Rijkshuisstijl style-guide site is auth-gated; downloadable assets not directly probable."
+    "verification_notes": "Ministry name confirmed against canonical /ministeries index on 2026-05-19. Logo SVGs in client-data are byte-identical to live Rijksoverheid canonical sources. Both 'Minister van EZK' and 'Minister van Klimaat en Groene Groei' portfolios sit under the same ministry — no separate ministry exists. Rijkshuisstijl style-guide site is auth-gated; downloadable assets not directly probable."
   },
   "colors": {
     "primary": "#154273",
@@ -100,7 +100,7 @@
       "source-serif4": "fonts/SourceSerif4[opsz,wght].ttf",
       "source-serif4-italic": "fonts/SourceSerif4-Italic[opsz,wght].ttf"
     },
-    "substituteNote": "RO Sans/RO Serif are Rijksoverheid-licensed and ship web-only (woff2) \u2014 not embeddable into OOXML/PDF. Server-side render tools embed the OFL substitute (Fira Sans / Source Serif 4) so deliverables are self-contained; Dutch-gov machines with the RO fonts installed still render the named family."
+    "substituteNote": "RO Sans/RO Serif are Rijksoverheid-licensed and ship web-only (woff2) — not embeddable into OOXML/PDF. Server-side render tools embed the OFL substitute (Fira Sans / Source Serif 4) so deliverables are self-contained; Dutch-gov machines with the RO fonts installed still render the named family."
   },
   "logo": {
     "primary": "logos/logo.svg",
@@ -194,6 +194,12 @@
       "section-02": "pptx-assets/overlays/photo-section-02-overlay.jpg",
       "section-03": "pptx-assets/overlays/photo-section-03-overlay.jpg",
       "section-04": "pptx-assets/overlays/photo-section-04-overlay.jpg"
+    }
+  },
+  "templates": {
+    "docx": {
+      "styles": "templates/docx/styles.docx",
+      "letterhead": "templates/docx/letterhead.docx"
     }
   }
 }
