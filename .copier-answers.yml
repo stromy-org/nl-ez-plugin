@@ -1,20 +1,20 @@
 # Changes here will be overwritten by Copier; DO NOT edit manually.
-_commit: 7498731
+_commit: v1.0.0
 _src_path: gh:stromy-org/claude-plugin-template
 author_name: William Masquelier
 client_name: Ministerie van Economische Zaken en Klimaat
 client_slug: nl-ez
 description: Claude Code plugin for Dutch government data research and branded deliverables
-enable_asset_broker: true
 enable_stromy_format: true
 github_org: stromy-org
 include_mcp: true
 include_node: true
 include_python: true
 mcp_server_name: nl-gov-data
+mcp_servers: []
 mcp_transport: http
 mcp_url: https://nl-gov-data.whitebush-d817afec.westeurope.azurecontainerapps.io/mcp
 plugin_name: Ministerie van Economische Zaken en Klimaat
 plugin_slug: nl-ez-plugin
-skill_slug: example
+provider_targets: claude
 version: 0.1.0
