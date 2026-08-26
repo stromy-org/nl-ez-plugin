@@ -5,14 +5,25 @@
   --color-primary:        #154273;  /* Rijksblauw */
   --color-secondary:      #01689b;  /* Interactive blue — links, CTAs */
   --color-accent:         #ffb612;  /* Amber — Dutch gold, alert accent */
+
+  /* Semantic — Rijkshuisstijl values from charter.colors, not framework
+   * defaults. success/warning were declared in the charter but never emitted
+   * here, so any consumer var() fell through to its fallback instead. */
+  --color-success:        #39870c;
+  --color-warning:        #e17000;
   --color-error:          #c63c2c;  /* Error / warning red */
 
   --color-text:           #1D1D1B;  /* Near-black — wordmark, headings */
   --color-text-body:      #333333;  /* Body text */
   --color-text-meta:      #535353;  /* Captions, timestamps */
+  --color-text-light:     #535353;  /* charter.colors.textLight */
   --color-text-on-dark:   #FFFFFF;  /* Text on primary/dark backgrounds */
 
   --color-background:     #FFFFFF;
+  /* templates/pptx/*.html declare --color-background-alt in their token
+   * contract; without it footer-bar/section-divider fell back to #e5e5e5 and
+   * plain white respectively, instead of the real #f3f3f3 panel grey. */
+  --color-background-alt: #f3f3f3;
   --color-surface:        #f3f3f3;  /* Panel / table backgrounds */
   --color-border:         #e6e6e6;
 
