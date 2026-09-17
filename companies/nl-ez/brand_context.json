@@ -44,6 +44,7 @@
         "sans-serif"
       ],
       "webSafe": "Segoe UI",
+      "webSafeAvailability": "web-safe",
       "rightsStatus": "unknown"
     },
     "body": {
@@ -58,6 +59,7 @@
         "sans-serif"
       ],
       "webSafe": "Segoe UI",
+      "webSafeAvailability": "web-safe",
       "rightsStatus": "unknown"
     },
     "serif": {
@@ -71,6 +73,7 @@
         "serif"
       ],
       "webSafe": "Georgia",
+      "webSafeAvailability": "web-safe",
       "rightsStatus": "unknown"
     }
   },
@@ -268,6 +271,6 @@
       "warnings"
     ],
     "visual_grammar_dimensions": [],
-    "sha256": "d37ced77971a5af45f545cb7c485785bbff70cdca5076a6526adcecec79f7922"
+    "sha256": "3023823fe6e98a3c3a1ee21fef5f67221206add6d66baa6b7830cf1fb322c89f"
   }
 }
