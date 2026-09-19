@@ -79,6 +79,7 @@
   },
   "tokens_css": ":root {\n  /* ── Rijksoverheid / EZK brand tokens ── */\n\n  /* Colors */\n  --color-primary:        #154273;  /* Rijksblauw */\n  --color-secondary:      #01689b;  /* Interactive blue — links, CTAs */\n  --color-accent:         #ffb612;  /* Amber — Dutch gold, alert accent */\n\n  /* Semantic — Rijkshuisstijl values from charter.colors, not framework\n   * defaults. success/warning were declared in the charter but never emitted\n   * here, so any consumer var() fell through to its fallback instead. */\n  --color-success:        #39870c;\n  --color-warning:        #e17000;\n  --color-error:          #c63c2c;  /* Error / warning red */\n\n  --color-text:           #1D1D1B;  /* Near-black — wordmark, headings */\n  --color-text-body:      #333333;  /* Body text */\n  --color-text-meta:      #535353;  /* Captions, timestamps */\n  --color-text-light:     #535353;  /* charter.colors.textLight */\n  --color-text-on-dark:   #FFFFFF;  /* Text on primary/dark backgrounds */\n\n  --color-background:     #FFFFFF;\n  /* templates/pptx/*.html declare --color-background-alt in their token\n   * contract; without it footer-bar/section-divider fell back to #e5e5e5 and\n   * plain white respectively, instead of the real #f3f3f3 panel grey. */\n  --color-background-alt: #f3f3f3;\n  --color-surface:        #f3f3f3;  /* Panel / table backgrounds */\n  --color-border:         #e6e6e6;\n\n  --color-white:          #FFFFFF;\n\n  /* Typography */\n  --font-heading: 'RO Sans', Calibri, Arial, Verdana, sans-serif;\n  --font-body:    'RO Sans', Calibri, Arial, Verdana, sans-serif;\n  --font-serif:   'RO Serif', Georgia, 'Times New Roman', serif;\n\n  --font-weight-regular: 400;\n  --font-weight-bold:    700;\n\n  /* Presentation */\n  --slide-margin:  40pt;\n  --title-margin:  60pt;\n  --content-margin: 40pt;\n}\n",
   "identity": {
+    "name": "Ministerie van Economische Zaken en Klimaat",
     "company": {
       "website": "https://www.rijksoverheid.nl/ministeries/ministerie-van-economische-zaken-en-klimaat"
     }
@@ -104,12 +105,14 @@
       "#c63c2c"
     ],
     "baseTemplate": "plotly_white",
+    "canvasColor": "#FFFFFF",
     "font": {
       "family": "RO Sans",
       "color": "#1D1D1B"
     },
     "titleFontSize": 18,
     "gridColor": "#f3f3f3",
+    "secondaryTextColor": "#535353",
     "sentiment": {
       "positive": "#39870c",
       "negative": "#c63c2c",
@@ -271,6 +274,6 @@
       "warnings"
     ],
     "visual_grammar_dimensions": [],
-    "sha256": "3023823fe6e98a3c3a1ee21fef5f67221206add6d66baa6b7830cf1fb322c89f"
+    "sha256": "ddadbc152b2a5b3ff9140b58bd5ae9b6a5cbc117027f1c555a53ef43b4ce5a61"
   }
 }
