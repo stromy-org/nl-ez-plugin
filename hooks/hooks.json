@@ -1,0 +1,4 @@
+{
+  "_notes": "Intel-only plugin: skills are MCP-hosted stubs with no local node/python dependencies, so there is nothing to install on SessionStart.",
+  "hooks": {}
+}
