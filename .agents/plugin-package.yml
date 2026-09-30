@@ -8,7 +8,7 @@ schema_version: 1
 identity:
   name: nl-ez-plugin
   display_name: Ministerie van Economische Zaken
-  version: 0.5.29
+  version: 0.5.30
   description: Branded plugin for Ministerie van Economische Zaken en Klimaat (nl-ez). Composes Dutch
     government data intelligence (nl-gov-data MCP — Tweede Kamer, Rijksoverheid, KOOP, BWB, Wetgevingskalender,
     Rechtspraak, CBS, plus nl-issue-framing, nl-parliamentary-positioning, nl-policy-legislative-landscape,
