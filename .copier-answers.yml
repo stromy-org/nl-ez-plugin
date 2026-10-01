@@ -1,5 +1,5 @@
 # Changes here will be overwritten by Copier; DO NOT edit manually.
-_commit: v1.2.0
+_commit: v1.7.0
 _src_path: gh:stromy-org/claude-plugin-template
 author_name: William Masquelier
 client_name: Ministerie van Economische Zaken en Klimaat
@@ -13,11 +13,29 @@ include_node: true
 include_python: true
 marketplace_slug: nl-ez-plugin-marketplace
 mcp_server_name: nl-gov-data
-mcp_servers: []
+mcp_servers:
+-   consumed_by:
+    - openai
+    - codex
+    - claude
+    - cursor
+    - copilot
+    - vscode
+    - kiro
+    - gemini
+    name: nl-gov-data
+    notes: Dutch government open-data MCP — search/fetch legislation, parliamentary
+        records, Rijksoverheid documents. Hosts the nl-gov-data, nl-gov-shared, nl-issue-framing,
+        nl-parliamentary-positioning, nl-policy-legislative-landscape, and nl-tensions
+        skills (fetched at runtime via fs_read). Per-user OAuth via Microsoft Entra
+        ID.
+    transport: http
+    url: https://nl-gov-data.whitebush-d817afec.westeurope.azurecontainerapps.io/mcp
+    via: mcp-remote
 mcp_transport: http
 mcp_url: https://nl-gov-data.whitebush-d817afec.westeurope.azurecontainerapps.io/mcp
 plugin_name: Ministerie van Economische Zaken en Klimaat
 plugin_slug: nl-ez-plugin
-provider_targets: claude
+provider_targets: openai,codex,claude,cursor,copilot,vscode,kiro,gemini
 repo_slug: nl-ez-plugin-plugin
 version: 0.1.0
