@@ -47,7 +47,11 @@
       "style": "italic",
       "sha256": "15fbc7e4679489a501998c3669272637a6646388ef7e4bd77eebb5bf967a1f42",
       "mime": "font/ttf",
-      "name": "SourceSerif4-Italic[opsz,wght].ttf"
+      "name": "SourceSerif4-Italic[opsz,wght].ttf",
+      "weight_range": [
+        200,
+        900
+      ]
     },
     {
       "family": "RO Serif",
@@ -55,7 +59,11 @@
       "style": "normal",
       "sha256": "97b2d4da6e3cb494b5a1e66ae176914d852ccabef49e0c02c0df25f3e39aca0b",
       "mime": "font/ttf",
-      "name": "SourceSerif4[opsz,wght].ttf"
+      "name": "SourceSerif4[opsz,wght].ttf",
+      "weight_range": [
+        200,
+        900
+      ]
     }
   ],
   "logos": [
@@ -168,8 +176,10 @@
     }
   ],
   "brand_context": {
-    "sha256": "6968687d449e343e4b8f2ef6d07d8540b31109a4e3e3052c8160a7f5425789c0",
+    "sha256": null,
     "mime": "application/json",
-    "bytes": 10246
+    "bytes": 10246,
+    "pending_upload": "6968687d449e343e4b8f2ef6d07d8540b31109a4e3e3052c8160a7f5425789c0",
+    "reason": "no remote upload: local backend or dry-run"
   }
 }
