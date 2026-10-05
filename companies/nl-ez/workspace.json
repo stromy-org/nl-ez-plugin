@@ -11,14 +11,20 @@
   "structure": {
     "levels": [
       {
-        "key": "project",
-        "label": "Project",
+        "key": "client",
+        "label": "Directorate or theme",
         "naming": "title",
         "required": true
       },
       {
-        "key": "workstream",
-        "label": "Workstream",
+        "key": "project",
+        "label": "Dossier",
+        "naming": "title",
+        "required": true
+      },
+      {
+        "key": "subproject",
+        "label": "Sub-dossier",
         "naming": "title",
         "required": false
       }
