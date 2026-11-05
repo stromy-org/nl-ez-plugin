@@ -1,5 +1,5 @@
 # Changes here will be overwritten by Copier; DO NOT edit manually.
-_commit: v1.10.4
+_commit: v1.11.0
 _src_path: gh:stromy-org/claude-plugin-template
 author_name: William Masquelier
 client_name: Ministerie van Economische Zaken en Klimaat
@@ -59,10 +59,10 @@ mcp_servers:
     transport: http
     url: https://eu-gov-data.braveforest-e73e8541.northeurope.azurecontainerapps.io/mcp
     via: mcp-remote
-- connector: true
-  name: asset-broker
-  transport: http
-  url: https://asset-broker-mcp.redbeach-6781a121.northeurope.azurecontainerapps.io/mcp
+-   connector: true
+    name: asset-broker
+    transport: http
+    url: https://asset-broker-mcp.redbeach-6781a121.northeurope.azurecontainerapps.io/mcp
 mcp_transport: http
 mcp_url: https://nl-gov-data.whitebush-d817afec.westeurope.azurecontainerapps.io/mcp
 plugin_name: Ministerie van Economische Zaken en Klimaat
