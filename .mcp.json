@@ -12,6 +12,10 @@
     "eu-gov-data": {
       "type": "http",
       "url": "https://eu-gov-data.braveforest-e73e8541.northeurope.azurecontainerapps.io/mcp"
+    },
+    "asset-broker": {
+      "type": "http",
+      "url": "https://asset-broker-mcp.redbeach-6781a121.northeurope.azurecontainerapps.io/mcp"
     }
   }
 }
