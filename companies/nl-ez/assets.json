@@ -175,7 +175,15 @@
       "mime": "image/jpeg"
     }
   ],
-  "templates": [],
+  "templates": [
+    {
+      "name": "styles.docx",
+      "sha256": "2b0192a5a465d68acd35ef2977204d1dfb378829b0e43d140015af1912a87b56",
+      "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "role": "template",
+      "kind": "docx"
+    }
+  ],
   "brand_context": {
     "sha256": "d3ed823f2ea2d7d34d06cd55b4d2d0244f361873cb4558467fc90b06c844202e",
     "mime": "application/json",
