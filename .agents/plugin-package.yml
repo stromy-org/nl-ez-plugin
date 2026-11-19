@@ -8,7 +8,7 @@ schema_version: 1
 identity:
   name: nl-ez-plugin
   display_name: Ministerie van Economische Zaken
-  version: 0.5.55
+  version: 0.5.56
   description: Branded plugin for Ministerie van Economische Zaken en Klimaat (nl-ez). Composes Dutch
     government data intelligence (nl-gov-data MCP — Tweede Kamer, Rijksoverheid, KOOP, BWB, Wetgevingskalender,
     Rechtspraak, CBS, plus nl-issue-framing, nl-parliamentary-positioning, nl-policy-legislative-landscape,
@@ -156,13 +156,6 @@ skills:
     reason: 'Hosted on the OAuth-gated ''stromy-format'' MCP, which the plugin bundles as a Claude connector
       (Connectors tab, hosted sign-in); the other hosts have no hosted sign-in, so it stays Claude-only
       (Invariant #13).'
-  - skill: format-docx-hd
-    providers:
-    - claude
-    capability: stromy-format-connector
-    reason: 'Hosted on the OAuth-gated ''stromy-format'' MCP, which the plugin bundles as a Claude connector
-      (Connectors tab, hosted sign-in); the other hosts have no hosted sign-in, so it stays Claude-only
-      (Invariant #13).'
   - skill: format-guide
     providers:
     - claude
@@ -206,13 +199,6 @@ skills:
       (Connectors tab, hosted sign-in); the other hosts have no hosted sign-in, so it stays Claude-only
       (Invariant #13).'
   - skill: format-pptx
-    providers:
-    - claude
-    capability: stromy-format-connector
-    reason: 'Hosted on the OAuth-gated ''stromy-format'' MCP, which the plugin bundles as a Claude connector
-      (Connectors tab, hosted sign-in); the other hosts have no hosted sign-in, so it stays Claude-only
-      (Invariant #13).'
-  - skill: format-pptx-hd
     providers:
     - claude
     capability: stromy-format-connector
